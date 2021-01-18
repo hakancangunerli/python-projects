@@ -2,6 +2,7 @@ from tkinter import *
 import tkinter as tk
 from tkinter.filedialog import asksaveasfilename
 
+# ce n'est pas compliqué 
 filename = ''
 main = Tk()
 
@@ -16,7 +17,7 @@ def save_file():
 
     path_file = asksaveasfilename(
         defaultextension="txt",
-        filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")],
+        filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")], # save l'files as text
     )
     if not path_file:
         return
@@ -24,7 +25,7 @@ def save_file():
         txt = py_text.get(1.0, tk.END)
         out_the_goddamn_file.write(txt)
 
-save_btn = tk.Button(main, text = 'save it ', command = lambda : save_file())
+save_btn = tk.Button(main, text = 'save it ', command = lambda : save_file()) #l'button pour saving
 save_btn.pack(side = TOP, pady = 20,padx = 50)
 
 

@@ -1,7 +1,8 @@
-from derive import derive
+from derive import derive # you can call otra files using from et import
 from indefinite import indef_integ
 from definite import def_integ
 
+#l'main est l' logique d'l' systeme. it does not do anything itself it just calls diger .py dosyalari.   
 
 which = input("do you want to integrate or derive? ")
 
@@ -15,6 +16,7 @@ elif which == "integrate":
         indef_integ()
 
 else:
-    print("what the fuck")
+    print("quoi the fuck") # c'est ne pas le 'best' systeme pour exception-handling. 
 
-# this application is not idiot-proof, it can graph indefinite and derivative.
+# TODO: this application is not idiot-proof, it can graph indefinite and derivative.
+

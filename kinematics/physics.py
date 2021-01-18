@@ -122,3 +122,4 @@ elif(missing == 'a'):
             t = int(input('t: '))
             t= (2*dx) / (vi+vf)
             print((t,2)) 
+# TODO: this could be implemented with a simpler function

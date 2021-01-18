@@ -1,6 +1,6 @@
 from pytube import Youtube
 
-link = input("pass the link  ")
+link = input("pass the link") #tres simple, mais i get errors a veces 
 yt = YouTube(link) 
 
 print("Title: ",yt.title)

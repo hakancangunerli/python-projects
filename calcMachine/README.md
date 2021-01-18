@@ -8,4 +8,4 @@ this application is _not_ idiot proof. you can mess it up in sO many ways. it ca
 ##setup 
 make sure you install the requirements.txt 
 
-### note, cannot do multivariate, for now only can do with respect to x.
+### cannot do multivariate, for now only can do with respect to x.
