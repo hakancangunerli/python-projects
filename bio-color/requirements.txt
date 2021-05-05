@@ -1,0 +1,6 @@
+colorama==0.4.3
+pycurl==7.43.0
+pygobject==3.22.0
+python-apt==1.4.1
+sty==1.0.0b12
+unattended-upgrades==0.1
