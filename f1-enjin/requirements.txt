@@ -1,0 +1,9 @@
+numpy==1.18.5
+pandas==0.25.3
+pycurl==7.43.0
+pygobject==3.22.0
+python-apt==1.4.1
+python-dateutil==2.8.1
+pytz==2020.1
+six==1.15.0
+unattended-upgrades==0.1
