@@ -3,7 +3,7 @@ import math
 
 vf = vi + a*t
 Δx = ((vi + vf)/2)*t
-Δx = vi*t + 1/2 * a* t
+Δx = vi*t + 1/2 * a* t*t
 vf^2 = vi^2 + 2*a* Δx
 '''
 missing = input('which information are you missing? (dx, vf, vi, or t) ')
